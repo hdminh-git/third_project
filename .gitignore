@@ -2,3 +2,8 @@
 /data/*.log
 # */*.txt or *txt
 data/*.txt
+# bỏ thư mục temp ở root level nhưng không bỏ qua ở thư mục khác
+#temp/:     Ignore mọi thư mục tên là temp ở mọi nơi
+#/temp = /temp/: 	Ignore thư mục hoặc file temp chỉ ở root
+# temp:     Ignore cả file và folder tên temp mọi nơi
+/temp
