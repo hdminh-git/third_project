@@ -1,2 +1,4 @@
 #khong theo doi file log trong folder data
 /data/*.log
+# */*.txt or *txt
+*.txt
